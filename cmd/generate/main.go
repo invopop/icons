@@ -38,7 +38,7 @@ func generate() error {
 
 		// List provides a complete list of all the currently available icons, which may be useful
 		// for select interfaces or documentation.
-		var List = []string{
+		var IconsList = []string{
 			{{ range .Icons -}}
 			"{{ .Name }}",
 			{{- end }}
