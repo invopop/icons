@@ -93,7 +93,9 @@ func generate() error {
 	}
 
 	out := bytes.NewBuffer(nil)
-	tmpl.Execute(out, map[string]any{"Icons": icons})
+	if err := tmpl.Execute(out, map[string]any{"Icons": icons}); err != nil {
+		return fmt.Errorf("executing template: %w", err)
+	}
 
 	f := filepath.Join("icons_list.templ")
 	if err := os.WriteFile(f, out.Bytes(), 0644); err != nil {

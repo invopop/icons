@@ -16,5 +16,23 @@ Upload generated code to the repository to ensure it can be used directly by Go.
 
 ### Svelte
 
-Coming soon...
+The icons are automatically built and published to npm when changes are pushed to the `themes/` folder.
 
+#### Installation
+
+```bash
+npm install @invopop/ui-icons @steeze-ui/svelte-icon
+```
+
+#### Usage
+
+```svelte
+<script>
+  import { Icon } from "@steeze-ui/svelte-icon";
+  import { AddCircle, Alert, Calendar } from "@invopop/ui-icons";
+</script>
+
+<Icon src={AddCircle} />
+<Icon src={Alert} size="24" />
+<Icon src={Calendar} theme="solid" />
+```
