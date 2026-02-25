@@ -36,20 +36,24 @@ func generate() error {
 
 		//lint:file-ignore SA4006 This context is only used if a nested component is present.
 
-		// IconsList provides a complete list of all the currently available icons, which may be useful
-		// for select interfaces or documentation.
-		var IconsList = []string{
+		// IconDef defines an icon with its name and templ component.
+		type IconDef struct {
+			Name      string
+			Component templ.Component
+		}
+
+		// Names provides a complete list of all the currently available icon names.
+		var Names = []string{
 			{{ range .Icons -}}
 			"{{ .Name }}",
 			{{- end }}
 		}
 
-		// Registry maps icon names to their templ component functions,
-		// enabling dynamic lookup by name.
-		var Registry = map[string]func() templ.Component{
+		// Defs provides a list of all icons with their names and components.
+		var Defs = []*IconDef{
 			{{ range .Icons -}}
-			"{{ .Name }}": {{ .Name }},
-			{{ end }}
+			{Name: "{{ .Name }}", Component: {{ .Name }}()},
+			{{- end }}
 		}
 		{{ range .Icons }}
 		templ {{ .Name }}() {
