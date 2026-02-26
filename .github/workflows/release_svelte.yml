@@ -4,8 +4,8 @@ on:
   push:
     branches: main
     paths:
-      - 'themes/**'
-      - '.github/workflows/release_svelte.yml'
+      - "themes/**"
+      - ".github/workflows/release_svelte.yml"
 
 permissions:
   id-token: write # Required for OIDC
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22.x
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: "https://registry.npmjs.org"
 
       # Ensure npm 11.5.1 or later is installed
       - name: Update npm
@@ -59,7 +59,7 @@ jobs:
       - name: Publish to NPM registry
         run: npm publish
 
-      # Create and push git tag
+      # Create a new git tag
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
