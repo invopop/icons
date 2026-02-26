@@ -1,4 +1,4 @@
 [build]
-  base = "icons"
+  base = ""
   publish = "build"
   command = "pnpm run build"
