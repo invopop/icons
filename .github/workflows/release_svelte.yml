@@ -31,20 +31,40 @@ jobs:
 
       - run: npm ci --legacy-peer-deps
 
-      # Bump version in package.json
-      - name: Configure git
+      # Determine next version from v0.0.x tags only (to avoid conflict with Go v0.x.0 tags)
+      - name: Determine next version
+        id: version
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch --tags
+          LATEST=$(git tag -l "v0.0.*" | sort -V | tail -n1)
+          if [ -z "$LATEST" ]; then
+            NEXT="v0.0.1"
+          else
+            # Extract patch version and increment
+            PATCH=$(echo $LATEST | sed 's/v0\.0\.//')
+            NEXT_PATCH=$((PATCH + 1))
+            NEXT="v0.0.$NEXT_PATCH"
+          fi
+          echo "Latest v0.0.x tag: $LATEST"
+          echo "Next version: $NEXT"
+          echo "version=$NEXT" >> $GITHUB_OUTPUT
 
-      - name: Bump version
-        run: 'npm version patch -m "chore: bump version to %s [skip ci]"'
-
-      - name: Push version bump
-        run: git push --follow-tags
+      # Update package.json version temporarily (not committed)
+      - name: Set package version
+        run: npm version --no-git-tag-version ${{ steps.version.outputs.version }}
 
       - run: npm run package
 
       # Publish to npm
       - name: Publish to NPM registry
         run: npm publish
+
+      # Create and push git tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create and push tag
+        run: |
+          git tag ${{ steps.version.outputs.version }}
+          git push origin ${{ steps.version.outputs.version }}
