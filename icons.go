@@ -3,3 +3,4 @@
 package icons
 
 //go:generate go run ./cmd/generate
+//go:generate go run github.com/a-h/templ/cmd/templ@v0.3.977 generate -f icons_list.templ
