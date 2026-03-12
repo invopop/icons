@@ -8,7 +8,7 @@ const builder = new ThemeBuilder({
     // fallbackTheme: "default", //* where to collect, when icons cannot be identified by their suffix (default is dont collect)
   },
   lib: {
-    excludeSvgAttributes: ["xmlns", "width", "height", "class"], //* exclude certain attributes from the svg's, which might be controlled by the used Icon component
+    excludeSvgAttributes: ["xmlns", "width", "height"], //* exclude certain attributes from the svg's, which might be controlled by the used Icon component
     extendSvgAttributes: {}, //* extend the svg's attributes
   },
 });
