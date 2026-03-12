@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" class="icon-sidebar-hide">
     <g class="icon-sidebar-hide_anim_line">
-        <rect width="1" height="10" fill="currentColor" stroke="none" opacity="1" transform="translate(5.5,8) translate(-0.5,-5)" />
+        <rect width="1" height="10" fill="currentColor" stroke="none" opacity="1" transform="translate(5,3)" />
     </g>
     <g class="icon-sidebar-hide_anim_rect">
         <rect width="13" height="11" fill="none" rx="2" stroke="currentColor" fill-rule="nonzero" transform="translate(1.5,2.5)"/>
