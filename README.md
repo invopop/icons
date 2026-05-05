@@ -18,6 +18,8 @@ Upload generated code to the repository to ensure it can be used directly by Go.
 
 The icons are automatically built and published to npm when changes are pushed to the `themes/` folder.
 
+To preview the icons locally, you can `npm run build:icons` and then `netlify dev` to open a preview server.
+
 #### Installation
 
 ```bash
