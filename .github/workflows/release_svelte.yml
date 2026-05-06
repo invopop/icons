@@ -27,7 +27,7 @@ jobs:
 
       # Ensure npm 11.5.1 or later is installed
       - name: Update npm
-        run: npm install -g npm@latest
+        run: npm install -g npm@11.5.1 --force
 
       - run: npm ci --legacy-peer-deps
 
