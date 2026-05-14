@@ -20,12 +20,12 @@ type IconDef struct {
 
 // Names provides a complete list of all the currently available icon names.
 var Names = []string{
-	"Activity", "AddCircle", "Add", "Alert", "Any", "Archive", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowUp", "Batch", "Bell", "Billing", "Block", "Bot", "Box", "Brackets", "Calculator", "Calendar", "CheckBadge", "CheckCircle", "ChevronDown", "ChevronLeft", "ChevronRight", "ChevronUp", "CircleOutline", "Close", "CodeFork", "Code", "Collapse", "Command", "Community", "Company", "Conditions", "Connect", "CrumpledPaper", "Cube", "Dashboard", "Delete", "DoubleArrow", "Download", "Drag", "DropdownDown", "DropdownUp", "Duplicate", "Edit", "Enter", "Envelope", "Erase", "Exchange", "Expand", "ExternalLink", "Failure", "Filter", "Flag", "Flask", "FolderL", "Folder", "Gobl", "Gov", "Handshake", "Hashtag", "Header", "Hide", "History", "IdBack", "IdFront", "If", "InfoBold", "Info", "Invoice", "Invopop", "Key", "Learn", "Less", "List", "Loader", "Lock", "Logout", "Menu", "Note", "Notification", "Ok", "OldVersion", "Options", "Order", "Payment", "Picture", "Pin", "Placeholder", "Pops", "Preview", "Published", "Pulse", "Puzzle", "Question", "Queue", "Receipt", "Reload", "Replace", "Reset", "Rocket", "Running", "Save", "ScrollBottom", "ScrollLeft", "ScrollRight", "ScrollTop", "Search", "Send", "Settings", "Shortcut", "SidebarHide", "SidebarShow", "Sign", "Signature", "Skip", "Slash", "Sleep", "Sliders", "SortAscending", "SortDescending", "SquareCheck", "Stack", "Stamp", "StatusSquare", "Status", "Stop", "Success", "Support", "Tables", "Tag", "Team", "Theme", "Tick", "Unarchive", "Upload", "User", "Van", "View", "WarningBold", "WarningOutline", "Warning", "Workflow", "Workspace", "World",
+	"Activity", "AddCircle", "Add", "Alert", "Any", "Archive", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowUp", "Batch", "Bell", "Billing", "Block", "Bot", "Box", "Brackets", "Calculator", "Calendar", "CheckBadge", "CheckCircle", "ChevronDown", "ChevronLeft", "ChevronRight", "ChevronUp", "CircleOutline", "Close", "CodeFork", "Code", "Collapse", "Command", "Community", "Company", "Conditions", "Connect", "CrumpledPaper", "Cube", "Dashboard", "Delete", "DoubleArrow", "Download", "Drag", "DropdownDown", "DropdownUp", "Duplicate", "Edit", "Enter", "Envelope", "Erase", "Exchange", "Expand", "ExternalLink", "Failure", "Filter", "Flag", "Flask", "FolderL", "Folder", "Gobl", "Gov", "Handshake", "Hashtag", "Header", "Hide", "History", "IdBack", "IdFront", "If", "InfoBold", "Info", "Invoice", "Invopop", "Key", "Learn", "Less", "List", "Loader", "Lock", "Logout", "Menu", "Note", "Notification", "Ok", "OldVersion", "Options", "Order", "Payment", "Picture", "Pin", "Placeholder", "Pops", "Preview", "Published", "Pulse", "Puzzle", "Question", "Queue", "Receipt", "Reload", "Replace", "Reset", "Rocket", "Running", "Save", "ScrollBottom", "ScrollLeft", "ScrollRight", "ScrollTop", "Search", "Send", "Settings", "Shortcut", "SidebarHide", "SidebarShow", "Sign", "Signature", "Skip", "Slash", "Sleep", "Sliders", "SortAscending", "SortDescending", "SquareCheck", "Stack", "Stamp", "StatusSquare", "Status", "Stop", "Success", "Support", "Tables", "Tag", "Team", "Theme", "Tick", "Unarchive", "Unpin", "Upload", "User", "Van", "View", "WarningBold", "WarningOutline", "Warning", "Workflow", "Workspace", "World",
 }
 
 // Defs provides a list of all icons with their names and components.
 var Defs = []*IconDef{
-	{Name: "Activity", Component: Activity()}, {Name: "AddCircle", Component: AddCircle()}, {Name: "Add", Component: Add()}, {Name: "Alert", Component: Alert()}, {Name: "Any", Component: Any()}, {Name: "Archive", Component: Archive()}, {Name: "ArrowDown", Component: ArrowDown()}, {Name: "ArrowLeft", Component: ArrowLeft()}, {Name: "ArrowRight", Component: ArrowRight()}, {Name: "ArrowUp", Component: ArrowUp()}, {Name: "Batch", Component: Batch()}, {Name: "Bell", Component: Bell()}, {Name: "Billing", Component: Billing()}, {Name: "Block", Component: Block()}, {Name: "Bot", Component: Bot()}, {Name: "Box", Component: Box()}, {Name: "Brackets", Component: Brackets()}, {Name: "Calculator", Component: Calculator()}, {Name: "Calendar", Component: Calendar()}, {Name: "CheckBadge", Component: CheckBadge()}, {Name: "CheckCircle", Component: CheckCircle()}, {Name: "ChevronDown", Component: ChevronDown()}, {Name: "ChevronLeft", Component: ChevronLeft()}, {Name: "ChevronRight", Component: ChevronRight()}, {Name: "ChevronUp", Component: ChevronUp()}, {Name: "CircleOutline", Component: CircleOutline()}, {Name: "Close", Component: Close()}, {Name: "CodeFork", Component: CodeFork()}, {Name: "Code", Component: Code()}, {Name: "Collapse", Component: Collapse()}, {Name: "Command", Component: Command()}, {Name: "Community", Component: Community()}, {Name: "Company", Component: Company()}, {Name: "Conditions", Component: Conditions()}, {Name: "Connect", Component: Connect()}, {Name: "CrumpledPaper", Component: CrumpledPaper()}, {Name: "Cube", Component: Cube()}, {Name: "Dashboard", Component: Dashboard()}, {Name: "Delete", Component: Delete()}, {Name: "DoubleArrow", Component: DoubleArrow()}, {Name: "Download", Component: Download()}, {Name: "Drag", Component: Drag()}, {Name: "DropdownDown", Component: DropdownDown()}, {Name: "DropdownUp", Component: DropdownUp()}, {Name: "Duplicate", Component: Duplicate()}, {Name: "Edit", Component: Edit()}, {Name: "Enter", Component: Enter()}, {Name: "Envelope", Component: Envelope()}, {Name: "Erase", Component: Erase()}, {Name: "Exchange", Component: Exchange()}, {Name: "Expand", Component: Expand()}, {Name: "ExternalLink", Component: ExternalLink()}, {Name: "Failure", Component: Failure()}, {Name: "Filter", Component: Filter()}, {Name: "Flag", Component: Flag()}, {Name: "Flask", Component: Flask()}, {Name: "FolderL", Component: FolderL()}, {Name: "Folder", Component: Folder()}, {Name: "Gobl", Component: Gobl()}, {Name: "Gov", Component: Gov()}, {Name: "Handshake", Component: Handshake()}, {Name: "Hashtag", Component: Hashtag()}, {Name: "Header", Component: Header()}, {Name: "Hide", Component: Hide()}, {Name: "History", Component: History()}, {Name: "IdBack", Component: IdBack()}, {Name: "IdFront", Component: IdFront()}, {Name: "If", Component: If()}, {Name: "InfoBold", Component: InfoBold()}, {Name: "Info", Component: Info()}, {Name: "Invoice", Component: Invoice()}, {Name: "Invopop", Component: Invopop()}, {Name: "Key", Component: Key()}, {Name: "Learn", Component: Learn()}, {Name: "Less", Component: Less()}, {Name: "List", Component: List()}, {Name: "Loader", Component: Loader()}, {Name: "Lock", Component: Lock()}, {Name: "Logout", Component: Logout()}, {Name: "Menu", Component: Menu()}, {Name: "Note", Component: Note()}, {Name: "Notification", Component: Notification()}, {Name: "Ok", Component: Ok()}, {Name: "OldVersion", Component: OldVersion()}, {Name: "Options", Component: Options()}, {Name: "Order", Component: Order()}, {Name: "Payment", Component: Payment()}, {Name: "Picture", Component: Picture()}, {Name: "Pin", Component: Pin()}, {Name: "Placeholder", Component: Placeholder()}, {Name: "Pops", Component: Pops()}, {Name: "Preview", Component: Preview()}, {Name: "Published", Component: Published()}, {Name: "Pulse", Component: Pulse()}, {Name: "Puzzle", Component: Puzzle()}, {Name: "Question", Component: Question()}, {Name: "Queue", Component: Queue()}, {Name: "Receipt", Component: Receipt()}, {Name: "Reload", Component: Reload()}, {Name: "Replace", Component: Replace()}, {Name: "Reset", Component: Reset()}, {Name: "Rocket", Component: Rocket()}, {Name: "Running", Component: Running()}, {Name: "Save", Component: Save()}, {Name: "ScrollBottom", Component: ScrollBottom()}, {Name: "ScrollLeft", Component: ScrollLeft()}, {Name: "ScrollRight", Component: ScrollRight()}, {Name: "ScrollTop", Component: ScrollTop()}, {Name: "Search", Component: Search()}, {Name: "Send", Component: Send()}, {Name: "Settings", Component: Settings()}, {Name: "Shortcut", Component: Shortcut()}, {Name: "SidebarHide", Component: SidebarHide()}, {Name: "SidebarShow", Component: SidebarShow()}, {Name: "Sign", Component: Sign()}, {Name: "Signature", Component: Signature()}, {Name: "Skip", Component: Skip()}, {Name: "Slash", Component: Slash()}, {Name: "Sleep", Component: Sleep()}, {Name: "Sliders", Component: Sliders()}, {Name: "SortAscending", Component: SortAscending()}, {Name: "SortDescending", Component: SortDescending()}, {Name: "SquareCheck", Component: SquareCheck()}, {Name: "Stack", Component: Stack()}, {Name: "Stamp", Component: Stamp()}, {Name: "StatusSquare", Component: StatusSquare()}, {Name: "Status", Component: Status()}, {Name: "Stop", Component: Stop()}, {Name: "Success", Component: Success()}, {Name: "Support", Component: Support()}, {Name: "Tables", Component: Tables()}, {Name: "Tag", Component: Tag()}, {Name: "Team", Component: Team()}, {Name: "Theme", Component: Theme()}, {Name: "Tick", Component: Tick()}, {Name: "Unarchive", Component: Unarchive()}, {Name: "Upload", Component: Upload()}, {Name: "User", Component: User()}, {Name: "Van", Component: Van()}, {Name: "View", Component: View()}, {Name: "WarningBold", Component: WarningBold()}, {Name: "WarningOutline", Component: WarningOutline()}, {Name: "Warning", Component: Warning()}, {Name: "Workflow", Component: Workflow()}, {Name: "Workspace", Component: Workspace()}, {Name: "World", Component: World()},
+	{Name: "Activity", Component: Activity()}, {Name: "AddCircle", Component: AddCircle()}, {Name: "Add", Component: Add()}, {Name: "Alert", Component: Alert()}, {Name: "Any", Component: Any()}, {Name: "Archive", Component: Archive()}, {Name: "ArrowDown", Component: ArrowDown()}, {Name: "ArrowLeft", Component: ArrowLeft()}, {Name: "ArrowRight", Component: ArrowRight()}, {Name: "ArrowUp", Component: ArrowUp()}, {Name: "Batch", Component: Batch()}, {Name: "Bell", Component: Bell()}, {Name: "Billing", Component: Billing()}, {Name: "Block", Component: Block()}, {Name: "Bot", Component: Bot()}, {Name: "Box", Component: Box()}, {Name: "Brackets", Component: Brackets()}, {Name: "Calculator", Component: Calculator()}, {Name: "Calendar", Component: Calendar()}, {Name: "CheckBadge", Component: CheckBadge()}, {Name: "CheckCircle", Component: CheckCircle()}, {Name: "ChevronDown", Component: ChevronDown()}, {Name: "ChevronLeft", Component: ChevronLeft()}, {Name: "ChevronRight", Component: ChevronRight()}, {Name: "ChevronUp", Component: ChevronUp()}, {Name: "CircleOutline", Component: CircleOutline()}, {Name: "Close", Component: Close()}, {Name: "CodeFork", Component: CodeFork()}, {Name: "Code", Component: Code()}, {Name: "Collapse", Component: Collapse()}, {Name: "Command", Component: Command()}, {Name: "Community", Component: Community()}, {Name: "Company", Component: Company()}, {Name: "Conditions", Component: Conditions()}, {Name: "Connect", Component: Connect()}, {Name: "CrumpledPaper", Component: CrumpledPaper()}, {Name: "Cube", Component: Cube()}, {Name: "Dashboard", Component: Dashboard()}, {Name: "Delete", Component: Delete()}, {Name: "DoubleArrow", Component: DoubleArrow()}, {Name: "Download", Component: Download()}, {Name: "Drag", Component: Drag()}, {Name: "DropdownDown", Component: DropdownDown()}, {Name: "DropdownUp", Component: DropdownUp()}, {Name: "Duplicate", Component: Duplicate()}, {Name: "Edit", Component: Edit()}, {Name: "Enter", Component: Enter()}, {Name: "Envelope", Component: Envelope()}, {Name: "Erase", Component: Erase()}, {Name: "Exchange", Component: Exchange()}, {Name: "Expand", Component: Expand()}, {Name: "ExternalLink", Component: ExternalLink()}, {Name: "Failure", Component: Failure()}, {Name: "Filter", Component: Filter()}, {Name: "Flag", Component: Flag()}, {Name: "Flask", Component: Flask()}, {Name: "FolderL", Component: FolderL()}, {Name: "Folder", Component: Folder()}, {Name: "Gobl", Component: Gobl()}, {Name: "Gov", Component: Gov()}, {Name: "Handshake", Component: Handshake()}, {Name: "Hashtag", Component: Hashtag()}, {Name: "Header", Component: Header()}, {Name: "Hide", Component: Hide()}, {Name: "History", Component: History()}, {Name: "IdBack", Component: IdBack()}, {Name: "IdFront", Component: IdFront()}, {Name: "If", Component: If()}, {Name: "InfoBold", Component: InfoBold()}, {Name: "Info", Component: Info()}, {Name: "Invoice", Component: Invoice()}, {Name: "Invopop", Component: Invopop()}, {Name: "Key", Component: Key()}, {Name: "Learn", Component: Learn()}, {Name: "Less", Component: Less()}, {Name: "List", Component: List()}, {Name: "Loader", Component: Loader()}, {Name: "Lock", Component: Lock()}, {Name: "Logout", Component: Logout()}, {Name: "Menu", Component: Menu()}, {Name: "Note", Component: Note()}, {Name: "Notification", Component: Notification()}, {Name: "Ok", Component: Ok()}, {Name: "OldVersion", Component: OldVersion()}, {Name: "Options", Component: Options()}, {Name: "Order", Component: Order()}, {Name: "Payment", Component: Payment()}, {Name: "Picture", Component: Picture()}, {Name: "Pin", Component: Pin()}, {Name: "Placeholder", Component: Placeholder()}, {Name: "Pops", Component: Pops()}, {Name: "Preview", Component: Preview()}, {Name: "Published", Component: Published()}, {Name: "Pulse", Component: Pulse()}, {Name: "Puzzle", Component: Puzzle()}, {Name: "Question", Component: Question()}, {Name: "Queue", Component: Queue()}, {Name: "Receipt", Component: Receipt()}, {Name: "Reload", Component: Reload()}, {Name: "Replace", Component: Replace()}, {Name: "Reset", Component: Reset()}, {Name: "Rocket", Component: Rocket()}, {Name: "Running", Component: Running()}, {Name: "Save", Component: Save()}, {Name: "ScrollBottom", Component: ScrollBottom()}, {Name: "ScrollLeft", Component: ScrollLeft()}, {Name: "ScrollRight", Component: ScrollRight()}, {Name: "ScrollTop", Component: ScrollTop()}, {Name: "Search", Component: Search()}, {Name: "Send", Component: Send()}, {Name: "Settings", Component: Settings()}, {Name: "Shortcut", Component: Shortcut()}, {Name: "SidebarHide", Component: SidebarHide()}, {Name: "SidebarShow", Component: SidebarShow()}, {Name: "Sign", Component: Sign()}, {Name: "Signature", Component: Signature()}, {Name: "Skip", Component: Skip()}, {Name: "Slash", Component: Slash()}, {Name: "Sleep", Component: Sleep()}, {Name: "Sliders", Component: Sliders()}, {Name: "SortAscending", Component: SortAscending()}, {Name: "SortDescending", Component: SortDescending()}, {Name: "SquareCheck", Component: SquareCheck()}, {Name: "Stack", Component: Stack()}, {Name: "Stamp", Component: Stamp()}, {Name: "StatusSquare", Component: StatusSquare()}, {Name: "Status", Component: Status()}, {Name: "Stop", Component: Stop()}, {Name: "Success", Component: Success()}, {Name: "Support", Component: Support()}, {Name: "Tables", Component: Tables()}, {Name: "Tag", Component: Tag()}, {Name: "Team", Component: Team()}, {Name: "Theme", Component: Theme()}, {Name: "Tick", Component: Tick()}, {Name: "Unarchive", Component: Unarchive()}, {Name: "Unpin", Component: Unpin()}, {Name: "Upload", Component: Upload()}, {Name: "User", Component: User()}, {Name: "Van", Component: Van()}, {Name: "View", Component: View()}, {Name: "WarningBold", Component: WarningBold()}, {Name: "WarningOutline", Component: WarningOutline()}, {Name: "Warning", Component: Warning()}, {Name: "Workflow", Component: Workflow()}, {Name: "Workspace", Component: Workspace()}, {Name: "World", Component: World()},
 }
 
 func Activity() templ.Component {
@@ -49,7 +49,7 @@ func Activity() templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 1, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#0b0b10\" d=\"M5.428 3.4c.25-.698 1.194-.73 1.516-.114L7 3.417l2.795 8.39 1.3-3.61.042-.102a1.39 1.39 0 0 1 1.265-.817h2.042a.5.5 0 1 1 0 1h-2.042a.39.39 0 0 0-.366.256l.001.001-1.464 4.067c-.267.743-1.323.729-1.573-.019l-2.796-8.39-1.3 3.612a1.39 1.39 0 0 1-1.306.918H1.556a.5.5 0 0 1 0-1h2.042a.39.39 0 0 0 .366-.257z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 1, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M5.428 3.4c.25-.698 1.194-.73 1.516-.114L7 3.417l2.795 8.39 1.3-3.61.042-.102a1.39 1.39 0 0 1 1.265-.817h2.042a.5.5 0 1 1 0 1h-2.042a.39.39 0 0 0-.366.256l.001.001-1.464 4.067c-.267.743-1.323.729-1.573-.019l-2.796-8.39-1.3 3.612a1.39 1.39 0 0 1-1.306.918H1.556a.5.5 0 0 1 0-1h2.042a.39.39 0 0 0 .366-.257z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -3972,7 +3972,7 @@ func Unarchive() templ.Component {
 	})
 }
 
-func Upload() templ.Component {
+func Unpin() templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		if templ_7745c5c3_CtxErr := ctx.Err(); templ_7745c5c3_CtxErr != nil {
@@ -3993,7 +3993,36 @@ func Upload() templ.Component {
 			templ_7745c5c3_Var137 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 137, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M14.5 9C14.776 9 15 9.224 15 9.5V12.5C15 13.881 13.881 15 12.5 15H3.5C2.119 15 1 13.881 1 12.5V9.5C1 9.224 1.224 9 1.5 9C1.776 9 2 9.224 2 9.5V12.5C2 13.328 2.672 14 3.5 14H12.5C13.328 14 14 13.328 14 12.5V9.5C14 9.224 14.224 9 14.5 9ZM8 1L8.101 1.01C8.135 1.017 8.169 1.028 8.2 1.042C8.209 1.046 8.216 1.05 8.225 1.055C8.247 1.066 8.269 1.078 8.289 1.093C8.297 1.098 8.304 1.105 8.312 1.111C8.329 1.126 8.347 1.14 8.362 1.157C8.366 1.161 8.371 1.164 8.374 1.168L12.374 5.668C12.557 5.874 12.538 6.191 12.332 6.374C12.126 6.557 11.809 6.538 11.626 6.332L8.5 2.815L8.501 10.5C8.501 10.776 8.277 11 8.001 11C7.725 11 7.501 10.776 7.501 10.5L7.5 2.814L4.374 6.332C4.191 6.538 3.874 6.557 3.668 6.374C3.462 6.191 3.443 5.874 3.626 5.668L7.626 1.168C7.629 1.164 7.633 1.161 7.637 1.157C7.65 1.143 7.664 1.13 7.679 1.118C7.69 1.109 7.7 1.1 7.712 1.092C7.731 1.078 7.751 1.067 7.771 1.057C7.781 1.052 7.789 1.046 7.799 1.042C7.86 1.015 7.928 1 8 1Z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 137, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M11.378 6.009a.5.5 0 0 1 .604.369c.205.847.546 1.216 1.097 1.733.265.25.417.6.417.965v.179c0 .96-.78 1.74-1.74 1.74h-3.26v3.5a.5.5 0 0 1-1 0v-3.5a.5.5 0 1 1 0-1h4.26c.408 0 .74-.332.74-.74v-.179a.33.33 0 0 0-.103-.236c-.608-.572-1.112-1.104-1.384-2.228a.5.5 0 0 1 .37-.603m2.264-4.367a.5.5 0 0 1 .707.707l-12 12a.5.5 0 0 1-.708-.707zM9.706.995c.5 0 1 .188 1.378.488s.687.755.687 1.309a.5.5 0 0 1-1 0c0-.162-.093-.355-.308-.525a1.27 1.27 0 0 0-.757-.272H5.913c-.244 0-.401.088-.504.207-.11.128-.189.329-.189.59V4.25c0 .682-.143 1.569-.404 2.4-.258.818-.656 1.661-1.218 2.19a.33.33 0 0 0-.102.236v.92a.5.5 0 0 1 0 1 1 1 0 0 1-1-1v-.92c0-.365.15-.714.417-.965.375-.353.709-1 .949-1.761.236-.75.358-1.535.358-2.1V2.792c0-.455.136-.902.432-1.244.303-.35.742-.553 1.26-.553z\" clip-rule=\"evenodd\"></path></svg></div>")
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		return nil
+	})
+}
+
+func Upload() templ.Component {
+	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
+		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
+		if templ_7745c5c3_CtxErr := ctx.Err(); templ_7745c5c3_CtxErr != nil {
+			return templ_7745c5c3_CtxErr
+		}
+		templ_7745c5c3_Buffer, templ_7745c5c3_IsBuffer := templruntime.GetBuffer(templ_7745c5c3_W)
+		if !templ_7745c5c3_IsBuffer {
+			defer func() {
+				templ_7745c5c3_BufErr := templruntime.ReleaseBuffer(templ_7745c5c3_Buffer)
+				if templ_7745c5c3_Err == nil {
+					templ_7745c5c3_Err = templ_7745c5c3_BufErr
+				}
+			}()
+		}
+		ctx = templ.InitializeContext(ctx)
+		templ_7745c5c3_Var138 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var138 == nil {
+			templ_7745c5c3_Var138 = templ.NopComponent
+		}
+		ctx = templ.ClearChildren(ctx)
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 138, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M14.5 9C14.776 9 15 9.224 15 9.5V12.5C15 13.881 13.881 15 12.5 15H3.5C2.119 15 1 13.881 1 12.5V9.5C1 9.224 1.224 9 1.5 9C1.776 9 2 9.224 2 9.5V12.5C2 13.328 2.672 14 3.5 14H12.5C13.328 14 14 13.328 14 12.5V9.5C14 9.224 14.224 9 14.5 9ZM8 1L8.101 1.01C8.135 1.017 8.169 1.028 8.2 1.042C8.209 1.046 8.216 1.05 8.225 1.055C8.247 1.066 8.269 1.078 8.289 1.093C8.297 1.098 8.304 1.105 8.312 1.111C8.329 1.126 8.347 1.14 8.362 1.157C8.366 1.161 8.371 1.164 8.374 1.168L12.374 5.668C12.557 5.874 12.538 6.191 12.332 6.374C12.126 6.557 11.809 6.538 11.626 6.332L8.5 2.815L8.501 10.5C8.501 10.776 8.277 11 8.001 11C7.725 11 7.501 10.776 7.501 10.5L7.5 2.814L4.374 6.332C4.191 6.538 3.874 6.557 3.668 6.374C3.462 6.191 3.443 5.874 3.626 5.668L7.626 1.168C7.629 1.164 7.633 1.161 7.637 1.157C7.65 1.143 7.664 1.13 7.679 1.118C7.69 1.109 7.7 1.1 7.712 1.092C7.731 1.078 7.751 1.067 7.771 1.057C7.781 1.052 7.789 1.046 7.799 1.042C7.86 1.015 7.928 1 8 1Z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4017,12 +4046,12 @@ func User() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var138 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var138 == nil {
-			templ_7745c5c3_Var138 = templ.NopComponent
+		templ_7745c5c3_Var139 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var139 == nil {
+			templ_7745c5c3_Var139 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 138, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M7.905 8c2.85 0 4.855 1.695 5.914 3.773h-.001c.563 1.084-.173 2.23-1.285 2.53l-.001-.001c-1.645.449-2.885.707-4.63.698-1.474-.007-2.548-.205-3.853-.544l-.575-.154C2.37 14 1.642 12.855 2.19 11.774v-.001C3.24 9.715 5.037 8 7.906 8Zm0 1C5.53 9 4.019 10.383 3.08 12.225c-.192.38.006.935.657 1.113 1.546.422 2.611.654 4.169.662 1.62.008 2.762-.225 4.364-.662l.001-.001c.665-.18.853-.732.658-1.106l-.003-.004C12 10.405 10.298 9 7.905 9ZM8 1a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 1a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 139, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M7.905 8c2.85 0 4.855 1.695 5.914 3.773h-.001c.563 1.084-.173 2.23-1.285 2.53l-.001-.001c-1.645.449-2.885.707-4.63.698-1.474-.007-2.548-.205-3.853-.544l-.575-.154C2.37 14 1.642 12.855 2.19 11.774v-.001C3.24 9.715 5.037 8 7.906 8Zm0 1C5.53 9 4.019 10.383 3.08 12.225c-.192.38.006.935.657 1.113 1.546.422 2.611.654 4.169.662 1.62.008 2.762-.225 4.364-.662l.001-.001c.665-.18.853-.732.658-1.106l-.003-.004C12 10.405 10.298 9 7.905 9ZM8 1a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 1a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4046,12 +4075,12 @@ func Van() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var139 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var139 == nil {
-			templ_7745c5c3_Var139 = templ.NopComponent
+		templ_7745c5c3_Var140 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var140 == nil {
+			templ_7745c5c3_Var140 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 139, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M8.924 2C10.07 2 11 2.93 11 4.076V4.5h1.309c.437 0 .846.223 1.083.59l1.402 2.181c.136.209.206.451.206.698v2.455c0 1.147-.93 2.076-2.076 2.076h-.49a1.999 1.999 0 0 1-3.869 0H6.5c-.022 0-.043-.004-.064-.007a1.998 1.998 0 0 1-3.89-.064A2.074 2.074 0 0 1 1 10.424V4.076C1 2.93 1.93 2 3.076 2h5.848ZM4.5 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm6 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM3.076 3C2.482 3 2 3.482 2 4.076v6.348c0 .422.243.785.597.962a1.998 1.998 0 0 1 3.839.12c.02-.003.042-.006.064-.006h2.065A2 2 0 0 1 10 10.065V4.076C10 3.482 9.518 3 8.924 3H3.076ZM11 10.065a2 2 0 0 1 1.435 1.435h.489c.594 0 1.076-.482 1.076-1.076V8.5h-2.94c-.02 0-.04-.004-.06-.007v1.572Zm0-2.56c.02-.002.04-.005.06-.005h2.693L12.55 5.632a.289.289 0 0 0-.242-.132H11v2.006Z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 140, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M8.924 2C10.07 2 11 2.93 11 4.076V4.5h1.309c.437 0 .846.223 1.083.59l1.402 2.181c.136.209.206.451.206.698v2.455c0 1.147-.93 2.076-2.076 2.076h-.49a1.999 1.999 0 0 1-3.869 0H6.5c-.022 0-.043-.004-.064-.007a1.998 1.998 0 0 1-3.89-.064A2.074 2.074 0 0 1 1 10.424V4.076C1 2.93 1.93 2 3.076 2h5.848ZM4.5 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm6 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM3.076 3C2.482 3 2 3.482 2 4.076v6.348c0 .422.243.785.597.962a1.998 1.998 0 0 1 3.839.12c.02-.003.042-.006.064-.006h2.065A2 2 0 0 1 10 10.065V4.076C10 3.482 9.518 3 8.924 3H3.076ZM11 10.065a2 2 0 0 1 1.435 1.435h.489c.594 0 1.076-.482 1.076-1.076V8.5h-2.94c-.02 0-.04-.004-.06-.007v1.572Zm0-2.56c.02-.002.04-.005.06-.005h2.693L12.55 5.632a.289.289 0 0 0-.242-.132H11v2.006Z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4075,12 +4104,12 @@ func View() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var140 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var140 == nil {
-			templ_7745c5c3_Var140 = templ.NopComponent
+		templ_7745c5c3_Var141 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var141 == nil {
+			templ_7745c5c3_Var141 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 140, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M12 9.5C13.3806 9.5 14.5 10.619 14.5 12C14.5 12.509 14.3466 12.983 14.085 13.378L15.2422 14.535C15.4374 14.73 15.4374 15.047 15.2422 15.242C15.0469 15.437 14.7304 15.437 14.5352 15.242L13.3779 14.085C12.9827 14.347 12.5095 14.5 12 14.5C10.6194 14.5 9.5 13.381 9.5 12C9.5 10.619 10.6194 9.5 12 9.5ZM8 1.277C9.5762 1.277 11.0251 1.506 12.0977 1.892C12.6317 2.085 13.0999 2.326 13.4434 2.618C13.7847 2.909 14.0555 3.299 14.0557 3.777V7.599C14.0556 7.876 13.8318 8.099 13.5557 8.099C13.2796 8.099 13.0557 7.876 13.0557 7.599V5.214C12.7766 5.385 12.4519 5.534 12.0977 5.662C11.0251 6.048 9.5762 6.277 8 6.277C6.4238 6.277 4.975 6.048 3.9023 5.662C3.5481 5.534 3.2234 5.385 2.9443 5.214V8C2.9443 8.072 2.9825 8.203 3.1904 8.385C3.3973 8.565 3.7256 8.752 4.1758 8.92C5.0724 9.254 6.3478 9.479 7.791 9.499C8.067 9.503 8.2877 9.729 8.2842 10.005C8.2804 10.281 8.0535 10.502 7.7773 10.498C6.2522 10.477 4.8573 10.242 3.8262 9.857C3.5021 9.736 3.2037 9.596 2.9443 9.437V12.222C2.9443 12.294 2.9838 12.428 3.1982 12.613C3.4113 12.797 3.7489 12.985 4.21 13.154C5.1282 13.49 6.4315 13.712 7.9004 13.722C8.1763 13.723 8.399 13.949 8.3975 14.224C8.3957 14.501 8.1697 14.723 7.8936 14.722C6.3418 14.711 4.9189 14.479 3.8662 14.094C3.3419 13.902 2.8822 13.662 2.5449 13.371C2.2093 13.082 1.9443 12.695 1.9443 12.222V3.777C1.9445 3.299 2.2153 2.909 2.5566 2.618C2.9002 2.326 3.3683 2.085 3.9023 1.892C4.9749 1.506 6.4239 1.277 8 1.277ZM12 10.5C11.1716 10.5 10.5 11.171 10.5 12C10.5 12.829 11.1716 13.5 12 13.5C12.411 13.5 12.7828 13.334 13.0537 13.066C13.0558 13.064 13.0574 13.062 13.0596 13.059C13.0617 13.057 13.0643 13.056 13.0664 13.054C13.3341 12.783 13.5 12.411 13.5 12C13.5 11.171 12.8284 10.5 12 10.5ZM8 2.277C6.5083 2.277 5.1793 2.495 4.2412 2.833C3.7702 3.002 3.4238 3.194 3.2051 3.38C2.9849 3.567 2.9445 3.703 2.9443 3.777C2.9443 3.851 2.9847 3.987 3.2051 4.175C3.4238 4.361 3.7701 4.552 4.2412 4.722C5.1793 5.059 6.5082 5.277 8 5.277C9.4918 5.277 10.8207 5.059 11.7588 4.722C12.2299 4.552 12.5762 4.361 12.7949 4.175C13.0152 3.987 13.0557 3.851 13.0557 3.777C13.0555 3.704 13.0149 3.567 12.7949 3.38C12.5762 3.194 12.2298 3.002 11.7588 2.833C10.8207 2.495 9.4917 2.277 8 2.277Z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 141, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M12 9.5C13.3806 9.5 14.5 10.619 14.5 12C14.5 12.509 14.3466 12.983 14.085 13.378L15.2422 14.535C15.4374 14.73 15.4374 15.047 15.2422 15.242C15.0469 15.437 14.7304 15.437 14.5352 15.242L13.3779 14.085C12.9827 14.347 12.5095 14.5 12 14.5C10.6194 14.5 9.5 13.381 9.5 12C9.5 10.619 10.6194 9.5 12 9.5ZM8 1.277C9.5762 1.277 11.0251 1.506 12.0977 1.892C12.6317 2.085 13.0999 2.326 13.4434 2.618C13.7847 2.909 14.0555 3.299 14.0557 3.777V7.599C14.0556 7.876 13.8318 8.099 13.5557 8.099C13.2796 8.099 13.0557 7.876 13.0557 7.599V5.214C12.7766 5.385 12.4519 5.534 12.0977 5.662C11.0251 6.048 9.5762 6.277 8 6.277C6.4238 6.277 4.975 6.048 3.9023 5.662C3.5481 5.534 3.2234 5.385 2.9443 5.214V8C2.9443 8.072 2.9825 8.203 3.1904 8.385C3.3973 8.565 3.7256 8.752 4.1758 8.92C5.0724 9.254 6.3478 9.479 7.791 9.499C8.067 9.503 8.2877 9.729 8.2842 10.005C8.2804 10.281 8.0535 10.502 7.7773 10.498C6.2522 10.477 4.8573 10.242 3.8262 9.857C3.5021 9.736 3.2037 9.596 2.9443 9.437V12.222C2.9443 12.294 2.9838 12.428 3.1982 12.613C3.4113 12.797 3.7489 12.985 4.21 13.154C5.1282 13.49 6.4315 13.712 7.9004 13.722C8.1763 13.723 8.399 13.949 8.3975 14.224C8.3957 14.501 8.1697 14.723 7.8936 14.722C6.3418 14.711 4.9189 14.479 3.8662 14.094C3.3419 13.902 2.8822 13.662 2.5449 13.371C2.2093 13.082 1.9443 12.695 1.9443 12.222V3.777C1.9445 3.299 2.2153 2.909 2.5566 2.618C2.9002 2.326 3.3683 2.085 3.9023 1.892C4.9749 1.506 6.4239 1.277 8 1.277ZM12 10.5C11.1716 10.5 10.5 11.171 10.5 12C10.5 12.829 11.1716 13.5 12 13.5C12.411 13.5 12.7828 13.334 13.0537 13.066C13.0558 13.064 13.0574 13.062 13.0596 13.059C13.0617 13.057 13.0643 13.056 13.0664 13.054C13.3341 12.783 13.5 12.411 13.5 12C13.5 11.171 12.8284 10.5 12 10.5ZM8 2.277C6.5083 2.277 5.1793 2.495 4.2412 2.833C3.7702 3.002 3.4238 3.194 3.2051 3.38C2.9849 3.567 2.9445 3.703 2.9443 3.777C2.9443 3.851 2.9847 3.987 3.2051 4.175C3.4238 4.361 3.7701 4.552 4.2412 4.722C5.1793 5.059 6.5082 5.277 8 5.277C9.4918 5.277 10.8207 5.059 11.7588 4.722C12.2299 4.552 12.5762 4.361 12.7949 4.175C13.0152 3.987 13.0557 3.851 13.0557 3.777C13.0555 3.704 13.0149 3.567 12.7949 3.38C12.5762 3.194 12.2298 3.002 11.7588 2.833C10.8207 2.495 9.4917 2.277 8 2.277Z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4104,12 +4133,12 @@ func WarningBold() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var141 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var141 == nil {
-			templ_7745c5c3_Var141 = templ.NopComponent
+		templ_7745c5c3_Var142 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var142 == nil {
+			templ_7745c5c3_Var142 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 141, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M6.698 2.279C7.274 1.271 8.727 1.271 9.302 2.279L14.718 11.756C15.289 12.756 14.567 14 13.415 14H2.585C1.433 14 0.711 12.756 1.282 11.756L6.698 2.279Z\"></path><path fill=\"white\" d=\"M8 11C7.586 11 7.25 11.337 7.25 11.75C7.25 12.163 7.586 12.5 8 12.5C8.414 12.5 8.75 12.163 8.75 11.75C8.75 11.337 8.414 11 8 11Z\"></path><path fill=\"white\" d=\"M7.5 5V10H8.5V5H7.5Z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 142, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M6.698 2.279C7.274 1.271 8.727 1.271 9.302 2.279L14.718 11.756C15.289 12.756 14.567 14 13.415 14H2.585C1.433 14 0.711 12.756 1.282 11.756L6.698 2.279Z\"></path><path fill=\"white\" d=\"M8 11C7.586 11 7.25 11.337 7.25 11.75C7.25 12.163 7.586 12.5 8 12.5C8.414 12.5 8.75 12.163 8.75 11.75C8.75 11.337 8.414 11 8 11Z\"></path><path fill=\"white\" d=\"M7.5 5V10H8.5V5H7.5Z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4133,12 +4162,12 @@ func WarningOutline() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var142 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var142 == nil {
-			templ_7745c5c3_Var142 = templ.NopComponent
+		templ_7745c5c3_Var143 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var143 == nil {
+			templ_7745c5c3_Var143 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 142, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M6.688 1.826C7.26 0.797 8.74 0.797 9.311 1.826L15.111 12.266C15.667 13.266 14.944 14.495 13.801 14.495H2.199C1.056 14.495 0.333 13.266 0.889 12.266L6.688 1.826ZM8.437 2.311C8.247 1.969 7.753 1.969 7.562 2.311L1.763 12.752C1.578 13.085 1.818 13.495 2.199 13.495H13.801C14.182 13.495 14.422 13.085 14.237 12.752L8.437 2.311ZM8.05 11C8.464 11 8.8 11.337 8.8 11.75C8.8 12.163 8.464 12.5 8.05 12.5C7.636 12.5 7.3 12.163 7.3 11.75C7.3 11.337 7.636 11 8.05 11ZM8.039 4.495C8.315 4.495 8.539 4.719 8.539 4.995V9.995C8.539 10.271 8.315 10.495 8.039 10.495C7.763 10.495 7.539 10.271 7.539 9.995V4.995C7.539 4.719 7.763 4.495 8.039 4.495Z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 143, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M6.688 1.826C7.26 0.797 8.74 0.797 9.311 1.826L15.111 12.266C15.667 13.266 14.944 14.495 13.801 14.495H2.199C1.056 14.495 0.333 13.266 0.889 12.266L6.688 1.826ZM8.437 2.311C8.247 1.969 7.753 1.969 7.562 2.311L1.763 12.752C1.578 13.085 1.818 13.495 2.199 13.495H13.801C14.182 13.495 14.422 13.085 14.237 12.752L8.437 2.311ZM8.05 11C8.464 11 8.8 11.337 8.8 11.75C8.8 12.163 8.464 12.5 8.05 12.5C7.636 12.5 7.3 12.163 7.3 11.75C7.3 11.337 7.636 11 8.05 11ZM8.039 4.495C8.315 4.495 8.539 4.719 8.539 4.995V9.995C8.539 10.271 8.315 10.495 8.039 10.495C7.763 10.495 7.539 10.271 7.539 9.995V4.995C7.539 4.719 7.763 4.495 8.039 4.495Z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4162,12 +4191,12 @@ func Warning() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var143 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var143 == nil {
-			templ_7745c5c3_Var143 = templ.NopComponent
+		templ_7745c5c3_Var144 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var144 == nil {
+			templ_7745c5c3_Var144 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 143, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#ec6d1b\" d=\"M6.698 2.28a1.5 1.5 0 0 1 2.604 0l5.416 9.476A1.5 1.5 0 0 1 13.415 14H2.585a1.5 1.5 0 0 1-1.303-2.244z\"></path> <path fill=\"#fff\" stroke=\"#fff\" stroke-width=\"1.195\" d=\"M8 11.598c.084 0 .152.068.152.152a.153.153 0 0 1-.152.152.153.153 0 0 1-.152-.152c0-.084.069-.152.152-.152Z\"></path> <path stroke=\"#fff\" d=\"M8 5v5\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 144, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#ec6d1b\" d=\"M6.698 2.28a1.5 1.5 0 0 1 2.604 0l5.416 9.476A1.5 1.5 0 0 1 13.415 14H2.585a1.5 1.5 0 0 1-1.303-2.244z\"></path> <path fill=\"#fff\" stroke=\"#fff\" stroke-width=\"1.195\" d=\"M8 11.598c.084 0 .152.068.152.152a.153.153 0 0 1-.152.152.153.153 0 0 1-.152-.152c0-.084.069-.152.152-.152Z\"></path> <path stroke=\"#fff\" d=\"M8 5v5\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4191,12 +4220,12 @@ func Workflow() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var144 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var144 == nil {
-			templ_7745c5c3_Var144 = templ.NopComponent
+		templ_7745c5c3_Var145 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var145 == nil {
+			templ_7745c5c3_Var145 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 144, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M3.5 1a.5.5 0 0 1 .5.5v4.05a2.5 2.5 0 0 1 1.268 4.218c-.35.349-.791.582-1.268.68V14.5a.5.5 0 0 1-1 0v-4.052a2.5 2.5 0 0 1 0-4.897V1.5a.5.5 0 0 1 .5-.5Zm10 8a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 7 13.5v-3A1.5 1.5 0 0 1 8.5 9h5Zm-5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-5Zm-5-3.5a1.5 1.5 0 0 0 0 3l.148-.008A1.5 1.5 0 0 0 3.5 6.5Zm10-5.5A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-5A1.5 1.5 0 0 1 7 5.5v-3A1.5 1.5 0 0 1 8.5 1h5Zm-5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-5Z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 145, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M3.5 1a.5.5 0 0 1 .5.5v4.05a2.5 2.5 0 0 1 1.268 4.218c-.35.349-.791.582-1.268.68V14.5a.5.5 0 0 1-1 0v-4.052a2.5 2.5 0 0 1 0-4.897V1.5a.5.5 0 0 1 .5-.5Zm10 8a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 7 13.5v-3A1.5 1.5 0 0 1 8.5 9h5Zm-5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-5Zm-5-3.5a1.5 1.5 0 0 0 0 3l.148-.008A1.5 1.5 0 0 0 3.5 6.5Zm10-5.5A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-5A1.5 1.5 0 0 1 7 5.5v-3A1.5 1.5 0 0 1 8.5 1h5Zm-5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-5Z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4220,12 +4249,12 @@ func Workspace() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var145 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var145 == nil {
-			templ_7745c5c3_Var145 = templ.NopComponent
+		templ_7745c5c3_Var146 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var146 == nil {
+			templ_7745c5c3_Var146 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 145, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M12.495 1.005a2.5 2.5 0 0 1 2.5 2.5v9a2.5 2.5 0 0 1-2.5 2.5h-9a2.5 2.5 0 0 1-2.5-2.5v-9a2.5 2.5 0 0 1 2.5-2.5h9Zm-9 1a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5h-9ZM5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z\"></path></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 146, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M12.495 1.005a2.5 2.5 0 0 1 2.5 2.5v9a2.5 2.5 0 0 1-2.5 2.5h-9a2.5 2.5 0 0 1-2.5-2.5v-9a2.5 2.5 0 0 1 2.5-2.5h9Zm-9 1a1.5 1.5 0 0 0-1.5 1.5v9a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-9a1.5 1.5 0 0 0-1.5-1.5h-9ZM5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z\"></path></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -4249,12 +4278,12 @@ func World() templ.Component {
 			}()
 		}
 		ctx = templ.InitializeContext(ctx)
-		templ_7745c5c3_Var146 := templ.GetChildren(ctx)
-		if templ_7745c5c3_Var146 == nil {
-			templ_7745c5c3_Var146 = templ.NopComponent
+		templ_7745c5c3_Var147 := templ.GetChildren(ctx)
+		if templ_7745c5c3_Var147 == nil {
+			templ_7745c5c3_Var147 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 146, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><g clip-path=\"url(#a)\"><path fill=\"#88c9f9\" d=\"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16\"></path> <path fill=\"#5c913b\" d=\"M11.429.78c-.454.253-.832.68-1.346.525-.833-.25-1.944-.805-2.666-.11-.723.693-.89 1.333 0 1.305.888-.028 1.5-1.084 1.944-.64s.333.807-.722.945c-1.055.139-2.195.306-2.806.306s-.75.36-.333.75-.25.417-.945.806c-.694.389.167.555.75.889.584.333 1.028-.084 1.278-.64.25-.555 1.325-1.222 1.774-1.138.448.083.448.306.365.694s.333.278.36-.167c.028-.444.529-.777.917-.805.389-.028.722.528.278.805-.444.278-.889.5-.333.64.555.139.944.86.305 1.166-.638.305-1.75.5-2.25.25s-1.638-.611-1.944-.417c-.305.194-.472.396-.833.531-.361.136-1.833.802-1.861 1.664S3.305 9.972 3.889 10c.583.027 2-.36 2.444-.722s1.056-.278 1.25.138.055.667-.139 1.334c-.194.666.127 1 .439 1.583.311.583.561.916.561 1.333s.445.833 1.111.139c.667-.695 1.278-2.056 1.556-2.556.277-.5.5-1.61.833-1.833s.861-.75.472-.667c-.39.084-1.167-.027-1.36-.583-.195-.555-1.028-1.61-.64-1.722.389-.111.833.618 1 .962s.389.76.722.871c.334.111 1.056-.743 1.278-.871.222-.129.056-.656-.389-.6-.444.055-1.027 0-1.027-.278 0-.277.555-.64 1-.556s.777.223 1.055.556.834.944 1.056 1.333c.222.39.389.445.5-.25.073-.46.172-.715.262-.987A8 8 0 0 0 11.429.78\"></path></g> <defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h16v16H0z\"></path></clipPath></defs></svg></div>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 147, "<div style=\"width: 16px; height: 16px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><g clip-path=\"url(#a)\"><path fill=\"#88c9f9\" d=\"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16\"></path> <path fill=\"#5c913b\" d=\"M11.429.78c-.454.253-.832.68-1.346.525-.833-.25-1.944-.805-2.666-.11-.723.693-.89 1.333 0 1.305.888-.028 1.5-1.084 1.944-.64s.333.807-.722.945c-1.055.139-2.195.306-2.806.306s-.75.36-.333.75-.25.417-.945.806c-.694.389.167.555.75.889.584.333 1.028-.084 1.278-.64.25-.555 1.325-1.222 1.774-1.138.448.083.448.306.365.694s.333.278.36-.167c.028-.444.529-.777.917-.805.389-.028.722.528.278.805-.444.278-.889.5-.333.64.555.139.944.86.305 1.166-.638.305-1.75.5-2.25.25s-1.638-.611-1.944-.417c-.305.194-.472.396-.833.531-.361.136-1.833.802-1.861 1.664S3.305 9.972 3.889 10c.583.027 2-.36 2.444-.722s1.056-.278 1.25.138.055.667-.139 1.334c-.194.666.127 1 .439 1.583.311.583.561.916.561 1.333s.445.833 1.111.139c.667-.695 1.278-2.056 1.556-2.556.277-.5.5-1.61.833-1.833s.861-.75.472-.667c-.39.084-1.167-.027-1.36-.583-.195-.555-1.028-1.61-.64-1.722.389-.111.833.618 1 .962s.389.76.722.871c.334.111 1.056-.743 1.278-.871.222-.129.056-.656-.389-.6-.444.055-1.027 0-1.027-.278 0-.277.555-.64 1-.556s.777.223 1.055.556.834.944 1.056 1.333c.222.39.389.445.5-.25.073-.46.172-.715.262-.987A8 8 0 0 0 11.429.78\"></path></g> <defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h16v16H0z\"></path></clipPath></defs></svg></div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
